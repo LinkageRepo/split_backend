@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: chat_app_api
     ports:
-      - "5000:8000"
+      - "8000:8000"
     environment:
       - DEBUG=1
       - REDIS_HOST=redis
